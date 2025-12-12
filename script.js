@@ -4,9 +4,9 @@ switchBtn.addEventListener("click", function () {
     document.body.classList.toggle("invert");
 
     if (document.body.classList.contains("invert")) {
-        switchBtn.src = "img/light.png";
+        switchBtn.src = "img/Light.png";
     } else {
-        switchBtn.src = "img/dark.png";
+        switchBtn.src = "img/Dark.png";
     }
 }); 
 const img = document.getElementById("monImage");
